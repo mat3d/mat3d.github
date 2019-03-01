@@ -1,0 +1,18 @@
+\usepackage{tikz}
+\usetikzlibrary{calc,math}
+
+
+
+\tikzmath{
+    int \NROWS;
+    int \NCOLS;
+%
+    int \NROWS1;
+    int \NCOLS1;
+%
+    \NROWS = 9;
+    \NCOLS = 9;
+%
+    \NROWS1 = \NROWS - 1;
+    \NCOLS1 = \NCOLS - 1;
+}
